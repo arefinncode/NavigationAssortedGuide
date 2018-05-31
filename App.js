@@ -15,24 +15,23 @@ import {
     View,Button
 } from 'react-native';
 import { AppRegistry, Image } from 'react-native';
-import { createBottomTabNavigator } from 'react-navigation';
+import { createBottomTabNavigator,createStackNavigator} from 'react-navigation';
 
 // import {createMaterialTopTabNavigator} from 'react-navigation';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-// type Props = {};
 
-/*
-class HomeScreen extends React.Component {
+
+
+class DetailsScreen extends React.Component {
     render() {
         return (
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                <Text>Home!</Text>
+                <Text>Details!</Text>
             </View>
         );
     }
 }
-*/
 
 class HomeScreen extends React.Component {
     render() {
@@ -40,8 +39,8 @@ class HomeScreen extends React.Component {
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
                 <Text>Home!</Text>
                 <Button
-                    title="Go to Settings"
-                    onPress={() => this.props.navigation.navigate('Settings')}
+                    title="Go to Details"
+                    onPress={() => this.props.navigation.navigate('Details')}
                 />
             </View>
         );
@@ -54,28 +53,23 @@ class SettingsScreen extends React.Component {
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
                 <Text>Settings!</Text>
                 <Button
-                    title="Go to Home"
-                    onPress={() => this.props.navigation.navigate('Home')}
+                    title="Go to Details"
+                    onPress={() => this.props.navigation.navigate('Details')}
                 />
             </View>
         );
     }
 }
 
+const HomeStack = createStackNavigator({
+    Home: HomeScreen,
+    Details: DetailsScreen,
+});
 
-/*
-class SettingsScreen extends React.Component {
-    render() {
-        return (
-            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                <Text>Settings!</Text>
-            </View>
-        );
-    }
-}
-*/
-
-
+const SettingsStack = createStackNavigator({
+    Settings: SettingsScreen,
+    Details: DetailsScreen,
+});
 
 
 // createMaterialTopTabNavigator
@@ -83,8 +77,13 @@ class SettingsScreen extends React.Component {
 
 const RootStack=createBottomTabNavigator(
     {
+        /*
         Home: HomeScreen,
         Settings: SettingsScreen,
+        */
+
+        Home: HomeStack,
+        Settings: SettingsStack,
     },
     {
         navigationOptions: ({ navigation }) => ({
@@ -110,19 +109,6 @@ const RootStack=createBottomTabNavigator(
         },
     }
 );
-
-/*
-const RootStack =  createBottomTabNavigator(
-    {
-
-// export default class App extends Component ({
-    Home: HomeScreen,
-    Settings: SettingsScreen,
-});
-
-*/
-
-
 
 export default class App extends React.Component {
     render() {
