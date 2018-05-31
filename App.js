@@ -1,156 +1,161 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
-import React, { Component } from 'react';
-import {YellowBox} from 'react-native';
-YellowBox.ignoreWarnings(['Warning: ...']);
+import React from 'react';
 import {
-    Platform,
+    ActivityIndicator,
+    AsyncStorage,
+    Button,
+    StatusBar,
     StyleSheet,
-    Text,
-    View,Button,Image
+    View,
 } from 'react-native';
-import { AppRegistry} from 'react-native';
-import { createBottomTabNavigator,createStackNavigator} from 'react-navigation';
-
-// import {createMaterialTopTabNavigator} from 'react-navigation';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import { StackNavigator, SwitchNavigator } from 'react-navigation'; // Version can be specified in package.json
 
 
 
 
-class DetailsScreen extends React.Component {
-    render() {
-        return (
-            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                <Text>Details!</Text>
-            </View>
-        );
-    }
-}
-
-class MyNotificationsScreen extends React.Component {
+class SignInScreen extends React.Component {
     static navigationOptions = {
-        drawerLabel: 'Notifications',
-        drawerIcon: ({ tintColor }) => (
-            <Image
-                source={require('./notif.png')}
-                style={[styles.icon, {tintColor: tintColor}]}
-            />
-        ),
+        title: 'Please sign in',
     };
 
     render() {
         return (
-
-            <Button
-                onPress={() => this.props.navigation.goBack()}
-                title="Go back home"
-            />
+            <View style={styles.container}>
+                <Button title="Sign in!" onPress={this._signInAsync} />
+            </View>
         );
     }
+
+    _signInAsync = async () => {
+        await AsyncStorage.setItem('userToken', 'abc');
+        this.props.navigation.navigate('App');
+    };
 }
+
+
+
 
 class HomeScreen extends React.Component {
 
 
     static navigationOptions = {
-        drawerLabel: 'Home',
-        drawerIcon: ({ tintColor }) => (
-            <Image
-                source={require('./icon-push-notifications.png')}
-                style={[styles.icon, {tintColor: tintColor}]}
-
-
-            />
-        ),
+        title: 'Welcome to the app!',
     };
 
 
+    render() {
+        console.log("at homeScreen (App Stack");
+        return (
+            <View style={styles.container}>
+                <Button title="Show me more of the app" onPress={this._showMoreApp} />
+                <Button title="Actually, sign me out :)" onPress={this._signOutAsync} />
+            </View>
+        );
+    }
+
+    _showMoreApp = () => {
+        this.props.navigation.navigate('Other');
+    };
+
+    _signOutAsync = async () => {
+        await AsyncStorage.clear();
+        this.props.navigation.navigate('Auth');
+    };
+}
+
+
+
+class OtherScreen extends React.Component {
+    static navigationOptions = {
+        title: 'Lots of features here',
+    };
 
     render() {
         return (
-            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                <Text>Home!</Text>
-                <Button
-                    title="Go to Details"
-                    onPress={() => this.props.navigation.navigate('Details')}
-                />
-                <Button
-                    onPress={() => this.props.navigation.navigate('Notifications')}
-                    title="Go to notifications"
-                />
+            <View style={styles.container}>
+                <Button title="I'm done, sign me out" onPress={this._signOutAsync} />
+                <StatusBar barStyle="default" />
+            </View>
+        );
+    }
+
+    _signOutAsync = async () => {
+        await AsyncStorage.clear();
+        this.props.navigation.navigate('Auth');
+    };
+}
+
+
+
+
+class AuthLoadingScreen extends React.Component {
+    constructor() {
+        super();
+        this._bootstrapAsync();
+    }
+
+    // Fetch the token from storage then navigate to our appropriate place
+    _bootstrapAsync = async () => {
+        const userToken = await AsyncStorage.getItem('userToken');
+
+        console.log(userToken);
+
+        // This will switch to the App screen or Auth screen and this loading
+        // screen will be unmounted and thrown away.
+        this.props.navigation.navigate(userToken ? 'App' : 'Auth');
+    };
+
+    // Render any loading content that you like here
+    render() {
+        return (
+            <View style={styles.container}>
+                <ActivityIndicator />
+                <StatusBar barStyle="default" />
             </View>
         );
     }
 }
 
-class SettingsScreen extends React.Component {
-    render() {
-        return (
-            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                <Text>Settings!</Text>
-                <Button
-                    title="Go to Details"
-                    onPress={() => this.props.navigation.navigate('Details')}
-                />
-            </View>
-        );
-    }
-}
 
-const HomeStack = createStackNavigator({
-        Home: HomeScreen,Notifications:{
-            screen: MyNotificationsScreen,
-        },
-        Details: DetailsScreen,
-    }
-);
 
-const SettingsStack = createStackNavigator({
-    Settings: SettingsScreen,
-    Details: DetailsScreen,
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
 });
 
 
-// createMaterialTopTabNavigator
-// createBottomTabNavigator
 
-const RootStack=createBottomTabNavigator(
+
+const AppStack = StackNavigator({ Home: HomeScreen, Other: OtherScreen });
+const AuthStack = StackNavigator({ SignIn: SignInScreen });
+
+/*
+
+export default SwitchNavigator(
     {
-        /*
-        Home: HomeScreen,
-        Settings: SettingsScreen,
-        */
-
-        Home: HomeStack,
-        Settings: SettingsStack,
+        AuthLoading: AuthLoadingScreen,
+        App: AppStack,
+        Auth: AuthStack,
     },
     {
-        navigationOptions: ({ navigation }) => ({
-            tabBarIcon: ({ focused, tintColor }) => {
-                const { routeName } = navigation.state;
-                let iconName;
-                //ios-information-circle is the circled i.
-                if (routeName === 'Home') {
-                    iconName = `ios-information-circle${focused ? '' : '-outline'}`;
-                } else if (routeName === 'Settings') {
-                    iconName = `ios-options${focused ? '' : '-outline'}`;
-                }
+        initialRouteName: 'AuthLoading',
+    }
+);
 
-                // You can return any component that you like here! We usually use an
-                // icon component from react-native-vector-icons
-                return <Ionicons name={iconName} size={25} color={tintColor} />;
-            },
-        }),
-        tabBarOptions: {
-            activeTintColor:'green',
-            // activeTintColor: 'tomato',
-            inactiveTintColor: 'tomato',
-        },
+*/
+
+
+const RootStack=SwitchNavigator(
+    {
+        AuthLoading: AuthLoadingScreen,
+        App: AppStack,
+        Auth: AuthStack,
+    },
+    {
+        initialRouteName: 'AuthLoading',
     }
 );
 
@@ -180,16 +185,3 @@ export default class App extends React.Component {
 
 
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#F5FCFF',
-    },
-    icon:{
-        width: 140,
-        height:140,
-    },
-});
