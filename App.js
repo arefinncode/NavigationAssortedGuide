@@ -5,16 +5,15 @@
  */
 
 import React, { Component } from 'react';
-// import {YellowBox} from 'react-native';
-// YellowBox.ignoreWarnings(['Warning: ...']);
-// import {Image } from 'react-native';
+import {YellowBox} from 'react-native';
+YellowBox.ignoreWarnings(['Warning: ...']);
 import {
     Platform,
     StyleSheet,
     Text,
-    View,Button
+    View,Button,Image
 } from 'react-native';
-import { AppRegistry, Image } from 'react-native';
+import { AppRegistry} from 'react-native';
 import { createBottomTabNavigator,createStackNavigator} from 'react-navigation';
 
 // import {createMaterialTopTabNavigator} from 'react-navigation';
@@ -33,7 +32,45 @@ class DetailsScreen extends React.Component {
     }
 }
 
+class MyNotificationsScreen extends React.Component {
+    static navigationOptions = {
+        drawerLabel: 'Notifications',
+        drawerIcon: ({ tintColor }) => (
+            <Image
+                source={require('./notif.png')}
+                style={[styles.icon, {tintColor: tintColor}]}
+            />
+        ),
+    };
+
+    render() {
+        return (
+
+            <Button
+                onPress={() => this.props.navigation.goBack()}
+                title="Go back home"
+            />
+        );
+    }
+}
+
 class HomeScreen extends React.Component {
+
+
+    static navigationOptions = {
+        drawerLabel: 'Home',
+        drawerIcon: ({ tintColor }) => (
+            <Image
+                source={require('./icon-push-notifications.png')}
+                style={[styles.icon, {tintColor: tintColor}]}
+
+
+            />
+        ),
+    };
+
+
+
     render() {
         return (
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
@@ -41,6 +78,10 @@ class HomeScreen extends React.Component {
                 <Button
                     title="Go to Details"
                     onPress={() => this.props.navigation.navigate('Details')}
+                />
+                <Button
+                    onPress={() => this.props.navigation.navigate('Notifications')}
+                    title="Go to notifications"
                 />
             </View>
         );
@@ -62,9 +103,12 @@ class SettingsScreen extends React.Component {
 }
 
 const HomeStack = createStackNavigator({
-    Home: HomeScreen,
-    Details: DetailsScreen,
-});
+        Home: HomeScreen,Notifications:{
+            screen: MyNotificationsScreen,
+        },
+        Details: DetailsScreen,
+    }
+);
 
 const SettingsStack = createStackNavigator({
     Settings: SettingsScreen,
@@ -111,9 +155,30 @@ const RootStack=createBottomTabNavigator(
 );
 
 export default class App extends React.Component {
+
+
+
+    componentWillmount(){
+
+
+    }
+    componentDidMount() {
+        console.log("111");
+        console.disableYellowBox = true;
+    }
+
+    componentWillUnmount() {
+        console.log("2");
+
+        // console.disableYellowBox = true;
+    }
+
+
     render() {
         return <RootStack/>;
     }
+
+
 }
 
 const styles = StyleSheet.create({
@@ -122,5 +187,9 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#F5FCFF',
-    }
+    },
+    icon:{
+        width: 140,
+        height:140,
+    },
 });
