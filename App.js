@@ -12,7 +12,7 @@ import {
     Platform,
     StyleSheet,
     Text,
-    View
+    View,Button
 } from 'react-native';
 import { AppRegistry, Image } from 'react-native';
 import { createBottomTabNavigator } from 'react-navigation';
@@ -21,11 +21,28 @@ import { createBottomTabNavigator } from 'react-navigation';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 // type Props = {};
+
+/*
 class HomeScreen extends React.Component {
     render() {
         return (
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
                 <Text>Home!</Text>
+            </View>
+        );
+    }
+}
+*/
+
+class HomeScreen extends React.Component {
+    render() {
+        return (
+            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+                <Text>Home!</Text>
+                <Button
+                    title="Go to Settings"
+                    onPress={() => this.props.navigation.navigate('Settings')}
+                />
             </View>
         );
     }
@@ -36,10 +53,27 @@ class SettingsScreen extends React.Component {
         return (
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
                 <Text>Settings!</Text>
+                <Button
+                    title="Go to Home"
+                    onPress={() => this.props.navigation.navigate('Home')}
+                />
             </View>
         );
     }
 }
+
+
+/*
+class SettingsScreen extends React.Component {
+    render() {
+        return (
+            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+                <Text>Settings!</Text>
+            </View>
+        );
+    }
+}
+*/
 
 
 
@@ -57,6 +91,7 @@ const RootStack=createBottomTabNavigator(
             tabBarIcon: ({ focused, tintColor }) => {
                 const { routeName } = navigation.state;
                 let iconName;
+                //ios-information-circle is the circled i.
                 if (routeName === 'Home') {
                     iconName = `ios-information-circle${focused ? '' : '-outline'}`;
                 } else if (routeName === 'Settings') {
@@ -69,8 +104,9 @@ const RootStack=createBottomTabNavigator(
             },
         }),
         tabBarOptions: {
-            activeTintColor: 'tomato',
-            inactiveTintColor: 'gray',
+            activeTintColor:'green',
+            // activeTintColor: 'tomato',
+            inactiveTintColor: 'tomato',
         },
     }
 );
