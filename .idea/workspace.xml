@@ -2,11 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="871d5ed8-2c54-4457-9a85-d80720330119" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/AppJs File before Drawe More Detail Safe keeping.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/zip-cache/WkdMEaPlglpvajVSSK5mHKoap9U=" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/zip-cache/WkdMEaPlglpvajVSSK5mHKoap9U=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_c3d903c32c8213565b603374b6a17033506da316.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_c3d903c32c8213565b603374b6a17033506da316.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_a21dea755cb53b89a502d17fad34f64f2e9ba37c.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_a21dea755cb53b89a502d17fad34f64f2e9ba37c.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_f44999f23c94dd6eb10f1ebf1c31476c887feda3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_f44999f23c94dd6eb10f1ebf1c31476c887feda3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_6ff91713823ecace9b9f5fdbaa971cac35c71135.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_6ff91713823ecace9b9f5fdbaa971cac35c71135.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_a6b525a9333ffbd76b4810f3b95fb0225cbaff91.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_a6b525a9333ffbd76b4810f3b95fb0225cbaff91.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_96a6988b1e3b546bfc3c2b0a8c88ec649f87a12e.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_96a6988b1e3b546bfc3c2b0a8c88ec649f87a12e.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_3e6bcabc8d7c1912dbea359f4d4605e156928102.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_3e6bcabc8d7c1912dbea359f4d4605e156928102.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_da3ff966c073699c5dcb1c37703748b3dfb53250.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_da3ff966c073699c5dcb1c37703748b3dfb53250.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_0debf2ef41b3a40ee570f82447d90e782238970e.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_0debf2ef41b3a40ee570f82447d90e782238970e.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_249faa7252d0cd8a66bd8e3a2884d47b2f0980ed.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_249faa7252d0cd8a66bd8e3a2884d47b2f0980ed.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.4_c279dde51cd07de22d784e2d8869fcd9b78476da.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.4_c279dde51cd07de22d784e2d8869fcd9b78476da.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_14cea29d2fa5acd1ab26825d79fa02d093fe1fd1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_14cea29d2fa5acd1ab26825d79fa02d093fe1fd1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/debug_4a70100a1fa87c4287dd4e56ec2fe08432365ca6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/debug_4a70100a1fa87c4287dd4e56ec2fe08432365ca6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_863253bef9c0575ef7c2819d3ebf0ec833f1f9ad.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_863253bef9c0575ef7c2819d3ebf0ec833f1f9ad.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_c97909cc2adf72eef51c44f74c3f1cbfaee3a2ff.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_c97909cc2adf72eef51c44f74c3f1cbfaee3a2ff.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_0a48e61b530a44d8ff7a83956e3230933c757f17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_0a48e61b530a44d8ff7a83956e3230933c757f17.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_a956aaa066fdf1baa6684e659aa83b431e93c483.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_a956aaa066fdf1baa6684e659aa83b431e93c483.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_7a127f0223f209ca934ac0f873047e6afa7e8ab8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_7a127f0223f209ca934ac0f873047e6afa7e8ab8.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_b686ef9383cc9300b8f7bf4edeaa250c90da32be.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_b686ef9383cc9300b8f7bf4edeaa250c90da32be.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_1b3b557ea9296924fcff226332b65cbf00c08753.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_1b3b557ea9296924fcff226332b65cbf00c08753.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_3ad661c7fac5a63e0d525e3e3815ca831e1a3aec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_3ad661c7fac5a63e0d525e3e3815ca831e1a3aec.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_c793427330ab6b1e15d900d92eb468f01d7982a4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_c793427330ab6b1e15d900d92eb468f01d7982a4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/res/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/res/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/awesomeproject/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/awesomeproject/MainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.android.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.android.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwesomeProject.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/AwesomeProject.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwesomeProject/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/AwesomeProject/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/camelcase/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/camelcase/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clamp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clamp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cliui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/create-react-context/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/create-react-context/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/decamelize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/decamelize/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fbjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fbjs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-caller-file/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-caller-file/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gud/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gud/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/os-locale/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/os-locale/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/path-to-regexp/node_modules/isarray/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-lifecycles-compat/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-lifecycles-compat/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-dismiss-keyboard/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-dismiss-keyboard/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-drawer-layout-polyfill/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-drawer-layout-polyfill/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-drawer-layout/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-drawer-layout/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-tab-view/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-tab-view/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/node_modules/yargs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/node_modules/yargs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-vector-icons/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-vector-icons/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-deprecated-tab-navigator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation-deprecated-tab-navigator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/node_modules/react-native-safe-area-view/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation-tabs/node_modules/react-native-safe-area-view/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/node_modules/react-native-tab-view/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation-tabs/node_modules/react-native-tab-view/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation-tabs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/read-pkg-up/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/require-directory/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/require-directory/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/require-main-filename/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/require-main-filename/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-blocking/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/set-blocking/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string-width/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string-width/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/which-module/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/which-module/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/y18n/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/y18n/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,6 +109,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ArefinPureDrawer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ArefinPureDrawer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -29,35 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App Safe Keeping.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App Safe Keeping.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="121" selection-start-line="121" selection-end-line="121" selection-end-column="16" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="83" column="57" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="57" />
+            <state relative-caret-position="935">
+              <caret line="79" column="58" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -66,7 +143,7 @@
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -74,7 +151,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ArefinApp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ArefinApp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="40" column="61" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="61" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#89#130#0" expanded="true" />
+                <element signature="e#215#308#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -82,13 +180,19 @@
       <find>awesomeproject</find>
       <find>eact-native-vector-icons</find>
       <find>console.</find>
-      <find>container</find>
       <find>styles.</find>
       <find>createstack</find>
       <find>switchnavigator</find>
+      <find>png</find>
+      <find>Drawer</find>
+      <find>container</find>
+      <find>stacknavigator</find>
+      <find>conta</find>
+      <find>icon</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/android/app/src/main/java/com/awesomeproject</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -101,10 +205,14 @@
         <option value="$PROJECT_DIR$/index.android.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/package-lock.json" />
-        <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/android/app/build.gradle" />
         <option value="$PROJECT_DIR$/App .js" />
+        <option value="$PROJECT_DIR$/AppJs File before Drawe More Detail Safe keeping.js" />
         <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/ArefinApp.js" />
+        <option value="$PROJECT_DIR$/App_Main.js" />
+        <option value="$PROJECT_DIR$/android/app/build.gradle" />
+        <option value="$PROJECT_DIR$/ArefinPureDrawer.js" />
       </list>
     </option>
   </component>
@@ -125,10 +233,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="488" />
-    <option name="y" value="252" />
-    <option name="width" value="1288" />
-    <option name="height" value="795" />
+    <option name="x" value="65" />
+    <option name="y" value="92" />
+    <option name="width" value="1527" />
+    <option name="height" value="819" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -154,6 +262,40 @@
               <item name="android" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AwesomeNavigationMay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AwesomeNavigationMay" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AwesomeNavigationMay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AwesomeNavigationMay" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AwesomeNavigationMay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AwesomeNavigationMay" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AwesomeNavigationMay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AwesomeNavigationMay" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -163,7 +305,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/DreamHouse" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -197,36 +339,41 @@
       <workItem from="1527673623373" duration="213000" />
       <workItem from="1527673856267" duration="799000" />
       <workItem from="1527679849827" duration="419000" />
-      <workItem from="1527747973156" duration="12124000" />
+      <workItem from="1527747973156" duration="12724000" />
+      <workItem from="1527915268012" duration="28000" />
+      <workItem from="1528272335000" duration="4830000" />
+      <workItem from="1528282265935" duration="613000" />
+      <workItem from="1528358512345" duration="5953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15328000" />
+    <option name="totallyTimeSpent" value="27352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24905661" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="RNConsole" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24905661" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,26 +383,134 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App.js">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#261#341#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
+    <entry file="file://$PROJECT_DIR$/ArefinApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3128">
+          <caret line="184" selection-start-line="184" selection-end-line="196" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#89#130#0" expanded="true" />
+            <element signature="e#215#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App Safe Keeping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="121" selection-start-line="121" selection-end-line="121" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="57" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App_Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App Safe Keeping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="121" selection-start-line="121" selection-end-line="121" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="57" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App_Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App_Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App_Main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
+    <entry file="file://$PROJECT_DIR$/App_Main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
@@ -290,7 +545,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
+    <entry file="file://$PROJECT_DIR$/App_Main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
@@ -325,7 +580,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
+    <entry file="file://$PROJECT_DIR$/App_Main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
@@ -367,7 +622,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
+    <entry file="file://$PROJECT_DIR$/App_Main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
@@ -402,13 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.android.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml" />
     <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/awesomeproject/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -431,10 +679,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App .js" />
+    <entry file="file://$PROJECT_DIR$/AppJs File before Drawe More Detail Safe keeping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="153" column="10" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App Safe Keeping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="39" column="44" selection-end-line="196" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.android.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-navigation/src/react-navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App_Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="132" column="38" selection-start-line="132" selection-start-column="38" selection-end-line="132" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -443,24 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="83" column="57" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/icon-push-notifications.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notif.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App .js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="935">
+          <caret line="79" column="58" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -471,27 +748,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App Safe Keeping.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/native-base/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="121" selection-start-line="121" selection-end-line="121" selection-end-column="16" />
+        <state relative-caret-position="315">
+          <caret line="991" column="17" selection-start-line="991" selection-start-column="17" selection-end-line="991" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArefinApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="40" column="61" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="61" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#89#130#0" expanded="true" />
+            <element signature="e#215#308#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-navigation/src/react-navigation.js">
+    <entry file="file://$PROJECT_DIR$/ArefinPureDrawer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+        <state relative-caret-position="207">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

@@ -174,6 +174,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/arefin/AwesomeNavigationMay/android/app/build/intermediates/exploded-aar/AwesomeNavigationMay/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="831b3db16e18758486b4466538d2dfd6df075c4a">
+        <dex dex="/home/arefin/AwesomeNavigationMay/android/app/build/intermediates/pre-dexed/debug/AwesomeNavigationMay-react-native-vector-icons-unspecified_8aa77c449a6d7b354093a9bdd2c02c407c4d1032.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/arefin/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"

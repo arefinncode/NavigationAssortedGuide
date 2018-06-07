@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import App from './App';
+import ArefinPureDrawer from './ArefinPureDrawer';
 
-AppRegistry.registerComponent('AwesomeNavigationMay', () => App);
+AppRegistry.registerComponent('AwesomeNavigationMay', () => ArefinPureDrawer);
